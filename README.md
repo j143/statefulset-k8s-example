@@ -28,3 +28,7 @@ Troubleshoot:
 $ kubectl apply -f mongo-statefulset.yaml
 
 error: error validating "mongo-statefulset.yaml": error validating data: ValidationError(StatefulSet.spec.volumeClaimTemplates[0]): unknown field "annotations" in io.k8s.api.core.v1.PersistentVolumeClaim; if you choose to ignore these errors, turn validation off with --validate=false
+
+$ kubectl apply -f mongo-statefulset.yaml
+
+Forbidden: updates to statefulset spec for fields other than 'replicas', 'template', and 'updateStrategy' are forbidden
