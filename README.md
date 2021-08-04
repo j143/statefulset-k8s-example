@@ -40,6 +40,7 @@ kubectl delete pvc -l role=mongo
 ### References
 
 1. https://github.com/cvallance/mongo-k8s-sidecar
+2. [Running a MongoDB Database in Kubernetes with StatefulSets](https://google.qwiklabs.com/focuses/640?parent=catalog)
 
 ### Troubleshoot
 
