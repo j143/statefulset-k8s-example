@@ -1,0 +1,11 @@
+# Based on https://cloud.google.com/kubernetes-engine/docs/how-to/persistent-volumes/local-ssd
+
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: fast-disk
+parameters:
+  type: pd-ssd
+  fstype: xfs
+provisioner: kubernetes.io/gce-pd
+reclaimPolicy: Delete
