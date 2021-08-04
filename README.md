@@ -1,6 +1,6 @@
 # statefulset-k8s-example
 
-![k8s stateful set](./k8s.svg)
+![k8s stateful set](./k8s.png)
 
 ### Deploy SSD disk on K8s
 
