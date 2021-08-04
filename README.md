@@ -1,0 +1,1 @@
+# statefulset-k8s-example
